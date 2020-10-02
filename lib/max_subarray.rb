@@ -3,7 +3,6 @@
 # Space Complexity: (1)
 def max_sub_array(nums)
     return 0 if nums == nil
-    answ = ""
     current_max = nums[0]
     global_max = nums[0]
 
