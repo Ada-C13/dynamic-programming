@@ -1,6 +1,6 @@
 require_relative "test_helper"
 
-xdescribe "max subarray" do
+describe "max subarray" do
   it "will work for [-2,1,-3,4,-1,2,1,-5,4]" do
     # Arrange
     input = [-2,1,-3,4,-1,2,1,-5,4]
@@ -29,6 +29,7 @@ xdescribe "max subarray" do
 
     # Act
     answer = max_sub_array(input)
+
 
     # Assert
     expect(answer).must_equal(-3)

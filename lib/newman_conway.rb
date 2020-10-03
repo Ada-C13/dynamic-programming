@@ -1,7 +1,7 @@
 
 
-# Time complexity: ?
-# Space Complexity: ?
+# Time complexity: O(n) where n is input larger than 2
+# Space Complexity: O(n) Creating a new area the length of given input
 def newman_conway(num)
   raise ArgumentError, "n must be > 0" if num < 1
   return '1' if num == 1
