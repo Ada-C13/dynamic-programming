@@ -10,8 +10,9 @@ def max_sub_array(nums)
     
   i = 1
   while (i < nums.length)
+    # start comparing: should we take the best we can do, or should we start over from the current number?
     if (total + nums[i]) > nums[i] # if current sum plus current number is greater than the current number
-    total += nums[i] # add it to the sum
+      total += nums[i] # add it to the sum
       if max < total # if the max_so_far is less than the current_total
         max = total # max is equal to the total
       end
