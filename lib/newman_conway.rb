@@ -1,4 +1,4 @@
-
+# Reference: https://www.geeksforgeeks.org/print-n-terms-newman-conway-sequence/
 
 # Time complexity: O(n) if num is greater than 2, where n is num 
 # Space Complexity: O(n)
