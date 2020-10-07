@@ -1,5 +1,5 @@
-# Time complexity: ?
-# Space Complexity: ?
+# Time complexity: O(n)
+# Space Complexity: O(n)
 
 def newman_conway(num)
   raise ArgumentError.new if num == 0
@@ -23,4 +23,4 @@ def newman_conway(num)
   return tally
 end 
 
-
+#research source: https://www.geeksforgeeks.org/print-n-terms-newman-conway-sequence/
