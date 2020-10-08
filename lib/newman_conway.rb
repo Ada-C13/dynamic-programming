@@ -1,6 +1,6 @@
 
-# Time complexity: ?
-# Space Complexity: ?
+# Time complexity: O(n)
+# Space Complexity: O(n)
 def newman_conway(num)
   # Recursive Function to find the n-th element
   raise ArgumentError if num < 1

@@ -1,6 +1,6 @@
 
-# Time Complexity: ?
-# Space Complexity: ?
+# Time Complexity: O(n)
+# Space Complexity: O(1)
 def max_sub_array(nums)
     return 0 if nums == nil
     max_current = max_sum = nums[0]
