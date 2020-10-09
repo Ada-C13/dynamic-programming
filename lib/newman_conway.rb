@@ -13,9 +13,9 @@ def newman_conway(num)
   while i <= num
     new_array[i] = new_array[new_array[i - 1]] + new_array[i - new_array[i - 1]]
     
-    index += 1
+    i += 1
   end
-  
-  return new_array(1..-1)
+
+  return new_array.delete_at(0).join(" ")
 
 end
