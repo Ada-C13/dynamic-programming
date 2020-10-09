@@ -1,7 +1,7 @@
 
 
-# Time complexity: ?
-# Space Complexity: ?
+# Time complexity: O(n)
+# Space Complexity: O(n)
 def newman_conway(num)
   raise ArgumentError if num <= 0
   return "1" if num == 1
@@ -16,6 +16,6 @@ def newman_conway(num)
     i += 1
   end
 
-  return new_array.delete_at(0).join(" ")
+  return new_array[1..-1].join(" ")
 
 end
