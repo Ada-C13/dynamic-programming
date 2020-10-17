@@ -1,5 +1,5 @@
-# Time complexity: ?
-# Space Complexity: ?
+# Time complexity: on
+# Space Complexity: on
 def newman_conway(num)
   raise ArgumentError if num <= 0
   starting_array = [0, 1, 1] 
